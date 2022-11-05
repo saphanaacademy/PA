@@ -1,6 +1,6 @@
 # Process Automation
 
-Note that the code on this ReadMe file is for a demo and is subject to change.
+Note that the code below is for a demo only (not production) and is subject to change.
 
 ### Custom Script 1
 
