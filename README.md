@@ -2,7 +2,7 @@
 
 Note that the code below is for a demo only (not production) and is subject to change.
 
-### Custom Script 1
+### Custom Script, Call Web Service With Destination Options
 
 ```javascript
 let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder" + "('" + SalesOrder + "')";
@@ -16,7 +16,7 @@ return {
 ```
 
 
-### Custom Script 2
+### Custom Script
 
 ```javascript
 var salesOrderDetails = {salesOrder: "", totalNetAmount: 0};
