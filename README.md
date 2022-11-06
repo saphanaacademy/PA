@@ -10,8 +10,8 @@ let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder" + "('" + SalesOr
 return {
   'method': 'GET',
   'url': url,
-  'responseType':'json', // parse the body of the result as a JSON object
-  'resolveBodyOnly':true // get only the body of the response
+  'responseType': 'json', // parse the body of the result as a JSON object
+  'resolveBodyOnly': true // get only the body of the response
 };
 ```
 
