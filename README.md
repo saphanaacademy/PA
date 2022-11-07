@@ -19,12 +19,12 @@ return {
 ### Custom Script
 
 ```javascript
-var salesOrderDetails = {salesOrder: "", totalNetAmount: 0};
+var objValues = {SalesOrder:"", TotalNetAmount:0};
 try {
-  salesOrderDetails.salesOrder = obj.d.SalesOrder;
-  salesOrderDetails.totalNetAmount = parseFloat(obj.d.TotalNetAmount, 2);
-  return(salesOrderDetails);
+  objValues.SalesOrder = obj.d.SalesOrder;
+  objValues.TotalNetAmount = parseFloat(obj.d.TotalNetAmount,2);
+  return(objValues);
 } catch (error) {
-    return(salesOrderDetails);
+    return(objValues);
 }
 ```
