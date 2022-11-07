@@ -16,7 +16,7 @@ return {
 ```
 
 
-### Custom Script
+### Custom Script, Get Values from Response Object
 
 ```javascript
 var objValues = {SalesOrder:"", TotalNetAmount:0};
