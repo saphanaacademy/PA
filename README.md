@@ -14,7 +14,13 @@ return {
   'resolveBodyOnly': true // get only the body of the response
 };
 ```
+### Test URL, S/4HANA Cloud Sales Order API
 
+Top 5 Sales Orders by Total Net Amount
+
+```javascript
+https://<your system name>-api.s4hana.ondemand.com/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=5&$orderby=TotalNetAmount%20desc
+```
 
 ### Custom Script, Get Values from Response Object
 
