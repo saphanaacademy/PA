@@ -5,12 +5,12 @@ Note that the code below is for a demo only (not production) and is subject to c
 ### Custom Script, Call Web Service With Destination Options
 
 ```javascript
-let urlA = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=5&$orderby=TotalNetAmount desc";
-let urlB = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder" + "('" + salesOrder + "')";
+let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=5&$orderby=TotalNetAmount desc";
+//let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder" + "('" + salesOrder + "')";
 
 return {
   'method': 'GET',
-  'url': urlA,
+  'url': url,
   'responseType': 'json', // parse the body of the result as a JSON object
   'resolveBodyOnly': true // get only the body of the response
 };
