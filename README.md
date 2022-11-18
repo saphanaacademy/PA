@@ -5,7 +5,7 @@ Note that the code below is for a demo only (not production) and is subject to c
 ### Custom Script, Call Web Service With Destination Options
 
 ```javascript
-let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=5&$orderby=TotalNetAmount desc";
+let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=1&$orderby=TotalNetAmount desc";
 //let url = "/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder" + "('" + salesOrder + "')";
 
 return {
